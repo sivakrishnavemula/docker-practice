@@ -1,3 +1,3 @@
-FROM nginx/nginx-ingress
+FROM nginx
 COPY . /usr/share/nginx/html
 EXPOSE 80
